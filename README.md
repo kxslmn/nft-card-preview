@@ -10,6 +10,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
 - [Author](#author)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
@@ -25,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](/Screenshot.png)
+![](/screenshots/Screenshot.png)
 
 ## My process
 
@@ -34,6 +35,10 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+
+### What I learned
+
+- I have learnt several things by completing this project but the one that took me some time and the one I am most proud of accomplishing is learning how to overlay an image on top of another.
 
 ## Author
 
