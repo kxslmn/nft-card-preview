@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+p {
+  color: hsl(215, 51%, 70%);
+  font-size: 18px;
+}
+body {
+  background: hsl(217, 54%, 11%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  width: 280px;
+  padding: 1rem;
+  border-radius: 0.6rem;
+  background: hsl(216, 50%, 16%);
+}
+.nft-image img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+.nft-id {
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.6rem 0;
+}
+.nft-description {
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+.when-available {
+  padding: 0.6rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.price,
+.time-left {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.price img {
+  width: 0.5rem;
+}
+.price p {
+  font-weight: 600;
+  color: hsl(178, 100%, 50%);
+  font-size: 0.9rem;
+}
+.time-left img {
+  width: 0.9rem;
+}
+.time-left p {
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+.nft-creator {
+  display: flex;
+  border-top: 1px solid hsl(215, 51%, 70%);
+  gap: 0.8rem;
+  padding: 0.6rem 0;
+}
+.nft-creator img {
+  width: 1.6rem;
+  border: 1px solid white;
+  border-radius: 0.8rem;
+}
+.nft-creator p {
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+.nft-creator p span {
+  color: white;
+  font-weight: 500;
+}
